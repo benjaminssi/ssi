@@ -16,7 +16,8 @@ Hack kali machine
 * * exec /sbin/init
 
 
-============================
+---
+ ---
 
 # Environnement de bureau : i3
 
@@ -84,16 +85,3 @@ Hack kali machine
 * echo "pouet" | xclip -selection clipboard
 
 * netstat -laputenv
-
-
-==================================
-
-# Fish - personnalisation des commandes
-* ~/.config/fish/config.fish
-
-* function mkcd
-* * mkdir $argv
-* * cd $argv
-* end
-
-==================================
