@@ -9,11 +9,11 @@ Hack kali machine
 * Non utilisation du recovery mode
 * Sur Grub, press "e"
 * Modifications : 
-    * rw  init=/bin/bash
+    * `rw  init=/bin/bash`
     * F10
 * Puis, en shell:
-    * passwd root
-    * exec /sbin/init
+    * `passwd root`
+    * `exec /sbin/init`
 
 
 ---
@@ -78,9 +78,10 @@ Hack kali machine
     * coller : ctrl shift v
 
 * pwd | xclip
-
+```
 * cat /etc/password | xargs echo
 
 * echo "pouet" | xclip -selection clipboard
 
 * netstat -laputenv
+```
