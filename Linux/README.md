@@ -2,22 +2,21 @@ Hack kali machine
 -----------------
 
 * notes sur /etc/shadow
-* * $1 : md5
-* * $6 : sha512
+    * $1 : md5
+    * $6 : sha512
 
 # Compromission des accès à la machine Kali
 * Non utilisation du recovery mode
 * Sur Grub, press "e"
 * Modifications : 
-* * rw  init=/bin/bash
-* * F10
+    * rw  init=/bin/bash
+    * F10
 * Puis, en shell:
-* * passwd root
-* * exec /sbin/init
+    * passwd root
+    * exec /sbin/init
 
 
 ---
- ---
 
 # Environnement de bureau : i3
 
@@ -38,17 +37,17 @@ Hack kali machine
 * i3lock -c 000000
 
 * Autre shell :
-* * Friendly Interactive Shell (Fish)
+    * Friendly Interactive Shell (Fish)
 
 * Bash :
-* * for line in $(ls); do echo $line; sleep 1; done
+    * for line in $(ls); do echo $line; sleep 1; done
 
 * Fish :
-* * for line in (ls); echo $line; sleep 1; end
+    * for line in (ls); echo $line; sleep 1; end
 
 
 
-=============================
+---
 
 # Astuces : commandes Linux
 
@@ -65,18 +64,18 @@ Hack kali machine
 
 
 * ctrl
-* * a, e : début/fin de ligne
-* * u, k : effacer à gauche / à droite
-* * w, y : couper / coller
-* * flèches droite, gauche : déplacement
+    * a, e : début/fin de ligne
+    * u, k : effacer à gauche / à droite
+    * w, y : couper / coller
+    * flèches droite, gauche : déplacement
 
 
 * Différence : sourcer / exécuter
-* * source script.sh  : inclure dans la session courante du shell le script
+    * source script.sh  : inclure dans la session courante du shell le script
 
 
 * xclip : copier dans un terminal
-* * coller : ctrl shift v
+    * coller : ctrl shift v
 
 * pwd | xclip
 
